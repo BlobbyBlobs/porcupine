@@ -115,7 +115,7 @@ points:
             thumb:
               bind: [0.5, 0.5, 05, 24]
               tags:
-                high15: true
+                high1: true
         far:
           key:
             spread: kx
@@ -126,7 +126,7 @@ points:
             thumb:
               bind: [4, -2, 0.1, 0.1]
               tags:
-                high15: true
+                high1: true
       rows:
         thumb:
           row_net: P7

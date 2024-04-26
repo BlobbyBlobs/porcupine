@@ -92,7 +92,7 @@ points:
     thumbfan:
       anchor:
         ref: matrix_inner_bottom
-        shift: [-1.7 kx, -1.3 ky]
+        shift: [-1.8 kx, -1.3 ky]
       columns:
         near:
           key:

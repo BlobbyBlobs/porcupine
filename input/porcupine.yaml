@@ -301,8 +301,8 @@ outlines:
       what: circle
       adjust:
         - ref: thumbfan_far_thumb
-          shift: [0.6, 0]
-      radius: 1.05
+shift: [0, 0.6 kx]      
+radius: 1.05
   mounting_holes:
     $extends: outlines.screw_holes
     top_left:

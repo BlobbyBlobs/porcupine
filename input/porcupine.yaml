@@ -295,13 +295,13 @@ outlines:
       what: circle
       adjust:
         - ref: matrix_index_bottom
-          shift: [0.45kx, -0.55 ky]
+          shift: [0.45kx, -0.7 ky]
       radius: 1.05
     thumb:
       what: circle
       adjust:
         - ref: thumbfan_far_thumb
-          shift: [0.6, 0 ky]
+          shift: [0.6, 0]
       radius: 1.05
   mounting_holes:
     $extends: outlines.screw_holes

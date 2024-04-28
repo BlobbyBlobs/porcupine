@@ -92,7 +92,7 @@ points:
     thumbfan:
       anchor:
         ref: matrix_inner_bottom
-        shift: [-0.5 kx, -1 ky]
+        shift: [-0.4 kx, -1.2 ky]
       columns:
         near:
           key:
@@ -107,8 +107,8 @@ points:
         home:
           key:
             spread: kx
-            splay: -12
-            origin: [-0.5 kx, -0.65 ky]
+            splay: -13
+            origin: [-0.5 kx, -0.8 ky]
             column_net: P15
           rows:
             thumb:
@@ -117,8 +117,8 @@ points:
         far:
           key:
             spread: kx
-            splay: -15
-            origin: [-0.5 kx, -0.8 ky]
+            splay: -14
+            origin: [-0.55 kx, -0.8 ky]
             column_net: P14
           rows:
             thumb:
@@ -295,13 +295,13 @@ outlines:
       what: circle
       adjust:
         - ref: matrix_index_bottom
-          shift: [0.45kx, -0.55 ky]
+          shift: [0.45kx, -0.6 ky]
       radius: 1.05
     thumb:
       what: circle
       adjust:
         - ref: thumbfan_far_thumb
-          shift: [0, 0 ky]
+          shift: [-0.6, 0 ky]
       radius: 1.05
   mounting_holes:
     $extends: outlines.screw_holes

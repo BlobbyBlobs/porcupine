@@ -95,7 +95,7 @@ points:
         shift: [-0.5 kx, -0.8 ky]
       columns:
         near:
-          key:
+         key:
             spread: kx
             splay: -8
             origin: [-1.5 kx, -0.5 ky]
@@ -107,8 +107,8 @@ points:
         home:
           key:
             spread: kx
-            splay: -12
-            origin: [-0.5 kx, -0.65 ky]
+            splay: -13
+            origin: [-0.5 kx, -0.8 ky]
             column_net: P15
           rows:
             thumb:
@@ -117,7 +117,7 @@ points:
         far:
           key:
             spread: kx
-            splay: -15
+            splay: -16
             origin: [-0.5 kx, -0.8 ky]
             column_net: P14
           rows:

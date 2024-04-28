@@ -92,7 +92,7 @@ points:
     thumbfan:
       anchor:
         ref: matrix_inner_bottom
-        shift: [-0.5 kx, -0.8 ky]
+        shift: [-0.5 kx, -1 ky]
       columns:
         near:
           key:
@@ -136,7 +136,7 @@ outlines:
     - what: rectangle
       size: [1.5kx + px, 1ky + py]
       corner: px
-      where: "high15"
+      where: "high1"
       bound: true
   raw_top_plate:
     - what: rectangle
@@ -147,7 +147,7 @@ outlines:
     - what: rectangle
       size: [kx + px, ky + py]
       corner: px
-      where: "high15"
+      where: "high1"
       bound: true
   thumbfan_glue:
     - what: polygon
@@ -295,13 +295,13 @@ outlines:
       what: circle
       adjust:
         - ref: matrix_index_bottom
-          shift: [0.45kx, -0.65 ky]
+          shift: [0.45kx, -0.55 ky]
       radius: 1.05
     thumb:
       what: circle
       adjust:
         - ref: thumbfan_far_thumb
-          shift: [-0.6, 0 ky]
+          shift: [0, 0 ky]
       radius: 1.05
   mounting_holes:
     $extends: outlines.screw_holes

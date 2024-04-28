@@ -95,7 +95,7 @@ points:
         shift: [-0.5 kx, -0.8 ky]
       columns:
         near:
-         key:
+          key:
             spread: kx
             splay: -8
             origin: [-1.5 kx, -0.5 ky]
@@ -107,8 +107,8 @@ points:
         home:
           key:
             spread: kx
-            splay: -13
-            origin: [-0.5 kx, -0.8 ky]
+            splay: -12
+            origin: [-0.5 kx, -0.65 ky]
             column_net: P15
           rows:
             thumb:
@@ -117,7 +117,7 @@ points:
         far:
           key:
             spread: kx
-            splay: -16
+            splay: -15
             origin: [-0.5 kx, -0.8 ky]
             column_net: P14
           rows:
@@ -156,6 +156,8 @@ outlines:
           shift: [0.5 kx + 0.5px, -0 ky + 0.5 py]
         - ref: thumbfan_far_thumb
           shift: [0.75 kx + 0.5px, -0.55 ky - 0.5 py]
+        - ref: thumbfan_far_thumb
+          shift: [-0.75 kx - 0.5px, -0.55 ky - 0.5 py]
         - ref: thumbfan_near_thumb
           shift: [-0.5 kx + 0.5 px, -0.6 ky - 0.5 py]
         - ref: matrix_pinky_bottom
@@ -167,7 +169,7 @@ outlines:
       points:
         - ref: matrix_inner_bottom
           shift: [0.5 kx + 1px, -0.7 ky + 0.5 py]
-        # - ref: thumbfan_home_thumb
+        # -ref: thumbfan_home_thumb
         #   shift: [1 kx + 0.5px, -0.5 ky + 0.5 py]
         - ref: thumbfan_far_thumb
           shift: [0.75 kx + 0.5px, -0.55 ky - 0.5 py]

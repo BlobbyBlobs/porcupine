@@ -134,7 +134,7 @@ outlines:
       where: "high1"
       bound: true
     - what: rectangle
-      size: [1.5kx + px, 1ky + py]
+      size: [kx + px, ky + py]
       corner: px
       where: "high1"
       bound: true
@@ -169,8 +169,8 @@ outlines:
       points:
         - ref: matrix_inner_bottom
           shift: [0.5 kx + 1px, -0.7 ky + 0.5 py]
-        # -ref: thumbfan_home_thumb
-        #   shift: [1 kx + 0.5px, -0.5 ky + 0.5 py]
+        #- ref: thumbfan_home_thumb
+         # shift: [1 kx + 0.5px, -0.5 ky + 0.5 py]
         - ref: thumbfan_far_thumb
           shift: [0.75 kx + 0.5px, -0.55 ky - 0.5 py]
         - ref: thumbfan_far_thumb
@@ -295,7 +295,7 @@ outlines:
       what: circle
       adjust:
         - ref: matrix_index_bottom
-          shift: [0.45kx, -0.72 ky]
+          shift: [0.45kx, -0.75 ky]
       radius: 1.05
     thumb:
       what: circle

@@ -97,7 +97,7 @@ points:
         near:
           key:
             spread: kx
-            splay: -7
+            splay: -6
             origin: [-1.5 kx, -0.5 ky]
             column_net: P18
           rows:
@@ -107,8 +107,8 @@ points:
         home:
           key:
             spread: kx
-            splay: -19
-            origin: [-0.6 kx, -0.8 ky]
+            splay: -15
+            origin: [-0.5 kx, -0.8 ky]
             column_net: P15
           rows:
             thumb:
@@ -117,8 +117,8 @@ points:
         far:
           key:
             spread: kx
-            splay: -20
-            origin: [-0.55 kx, -0.8 ky]
+            splay: -17
+            origin: [-0.5 kx, -0.8 ky]
             column_net: P14
           rows:
             thumb:

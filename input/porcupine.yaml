@@ -295,7 +295,7 @@ outlines:
       what: circle
       adjust:
         - ref: matrix_index_bottom
-          shift: [0.45kx, -0.75 ky]
+          shift: [0.45kx, -0.8 ky]
       radius: 1.05
     thumb:
       what: circle

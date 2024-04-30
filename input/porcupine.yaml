@@ -92,12 +92,12 @@ points:
     thumbfan:
       anchor:
         ref: matrix_inner_bottom
-        shift: [-0.4 kx, -1.1 ky]
+        shift: [-0.35 kx, -1.2 ky]
       columns:
         near:
           key:
             spread: kx
-            splay: -8
+            splay: -7
             origin: [-1.5 kx, -0.5 ky]
             column_net: P18
           rows:
@@ -107,8 +107,8 @@ points:
         home:
           key:
             spread: kx
-            splay: -13
-            origin: [-0.5 kx, -0.8 ky]
+            splay: -19
+            origin: [-0.6 kx, -0.8 ky]
             column_net: P15
           rows:
             thumb:
@@ -117,7 +117,7 @@ points:
         far:
           key:
             spread: kx
-            splay: -14
+            splay: -20
             origin: [-0.55 kx, -0.8 ky]
             column_net: P14
           rows:

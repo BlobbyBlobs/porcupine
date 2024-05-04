@@ -359,6 +359,38 @@ outlines:
       operation: subtract
 
 pcbs:
+  porcupine_top_plate:
+    outlines:
+      edge:
+        outline: plate_curved
+        layer: Edge.Cuts
+    # Remove this if you'd rather pay more to not have the order number printed at all
+    footprints:
+      jlc_order_number:
+        what: text
+        adjust:
+          ref:
+            - matrix_ring_home
+          shift: [-0.25 kx, 0.5 ky]
+        params:
+          text: "JLCJLCJLCJLC"
+          justify: left
+  porcupine_bottom_plate:
+    outlines:
+      edge:
+        outline: bottom_outline
+        layer: Edge.Cuts
+    # Remove this if you'd rather pay more to not have the order number printed at all
+    footprints:
+      jlc_order_number:
+        what: text
+        adjust:
+          ref:
+            - matrix_ring_home
+          shift: [-0.25 kx, 0.5 ky]
+        params:
+          text: "JLCJLCJLCJLC"
+          justify: left
   porcupine:
     outlines:
       edge:
